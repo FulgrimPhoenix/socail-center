@@ -1,0 +1,17 @@
+.intro__photo{
+  width: 100%;
+  padding-bottom: 125%;
+  background: url(../../../images/intro/Amma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__photo{
+    width: 50%;
+    padding-bottom: 60%;
+    margin: 0 auto;
+  }
+}

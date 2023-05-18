@@ -1,0 +1,35 @@
+.lead__title{
+  margin: 0 auto;
+  max-width: 1024px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title{
+    font-size: calc( (100vw - 768px)/(1024 - 768) * (96 - 72) + 72px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title{
+    font-size: calc( (100vw - 320px)/(768 - 320) * (72 - 40) + 40px);
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .lead__title{
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title{
+    font-size: 40px;
+  }
+}

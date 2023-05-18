@@ -1,0 +1,9 @@
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 0 24px;
+  background-color: #e0f1f1;
+}
