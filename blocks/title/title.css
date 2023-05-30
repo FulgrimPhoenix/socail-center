@@ -3,12 +3,5 @@
   text-transform: uppercase;
   font-size: 3rem;
   text-align: center;
-}
-
-.title::after{
-  content: "_";
-}
-
-.title::before{
-  content: "_";
+  color: #fff;
 }
