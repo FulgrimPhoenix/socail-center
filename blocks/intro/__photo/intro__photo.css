@@ -8,6 +8,9 @@
   align-self: flex-start;
   border-radius: 50%;
   background-position: 0 -50px;
+  outline: 5px solid rgb(183, 214, 170);
+  border: 5px solid #fff;
+
 }
 
 @media screen and (max-width: 1024px) {
