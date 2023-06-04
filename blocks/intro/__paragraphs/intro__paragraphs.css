@@ -2,8 +2,23 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
-  padding: 0 24px;
-  background: url(../../../images/Frame\ 1.png) no-repeat;
+  padding: 15px 15px 15px 140px;
+  background: url(../../../images/intro/background2.svg) no-repeat;
   background-size: cover;
-  background-position: -50px 0;
+}
+
+@media screen and (max-width:1024px) {
+  .intro__paragraphs{
+    background: url(../../../images/intro/background-mobile.svg) no-repeat;
+    padding: 80px 15px 15px 15px;
+    background-position: -120px 0;
+    
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .intro__paragraphs{
+    padding: 80px 15px 15px 15px;
+    background-size: cover;
+  }
 }
