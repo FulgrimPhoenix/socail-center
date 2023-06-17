@@ -1,0 +1,12 @@
+.service__website{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding: 0 16px;
+}
+
+@media screen and (max-width : 320px) {
+  .service__website{
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,17 @@
+.subtitle{
+  width: 90%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  color: #000000;
+  margin: 16px auto 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .subtitle{
+    font-size: calc( (100vw - 320px)/(768 - 320) * (30 - 16) + 16px);
+  }
+}
+

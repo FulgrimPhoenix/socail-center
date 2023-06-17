@@ -1,7 +1,12 @@
 .title{
-  margin: 32px auto;
+  margin: 32px auto 0;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
   text-align: center;
   color: #000;
+
 }
+

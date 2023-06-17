@@ -1,0 +1,33 @@
+.service__paragraph{
+  margin: 0 0 26px;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000;
+  padding: 0 16px;
+}
+
+.service__paragraph:last-child{
+  margin: 0;
+}
+
+@media screen and (max-width : 768px) {
+  .service__paragraph{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .service__paragraph{
+    margin-bottom: 25px;
+    padding: 16px;
+  }
+
+  .service__paragraph:last-child{
+    margin-bottom: 50px;
+  }
+}

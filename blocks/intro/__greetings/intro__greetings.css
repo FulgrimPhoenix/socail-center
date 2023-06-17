@@ -5,10 +5,7 @@
   justify-content: center;
   box-sizing: border-box;
   margin: 64px 0 0;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 700px));
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__greetings{
-    grid-template-columns: repeat(auto-fit, minmax(400px, 800px));
-  }
-}

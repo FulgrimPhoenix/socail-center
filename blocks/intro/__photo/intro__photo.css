@@ -9,7 +9,7 @@
   margin: 0 auto;
   border-radius: 50%;
   background-position: 0 -50px;
-  outline: 5px solid rgb(183, 214, 170);
+  outline: 5px solid #bad6d6;
   border: 5px solid #fff;
   box-sizing: border-box;
 }

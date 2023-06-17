@@ -1,0 +1,10 @@
+.service__image{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 20px;
+}

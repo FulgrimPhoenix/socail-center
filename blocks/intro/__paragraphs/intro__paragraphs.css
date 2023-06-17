@@ -1,24 +1,11 @@
 .intro__paragraphs{
-  padding: 30px;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  padding: 15px 15px 15px 140px;
-  background: url(../../../images/intro/background2.svg) no-repeat;
+  padding: 25% 10px 30px;
+  margin: auto;
+  background: url(../../../images/intro/intro__background-mobile.svg) no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width:1024px) {
-  .intro__paragraphs{
-    background: url(../../../images/intro/background-mobile.svg) no-repeat;
-    padding: 80px 15px 15px 15px;
-    background-position: -120px 0;
-    
-  }
-}
-
-@media screen and (max-width:1024px) {
-  .intro__paragraphs{
-    padding: 80px 15px 15px 15px;
-    background-size: cover;
-  }
-}
