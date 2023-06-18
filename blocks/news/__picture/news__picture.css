@@ -1,0 +1,7 @@
+.news__picture{
+  width: 288px;
+  object-fit: contain;
+  height: 216px;
+  position: absolute;
+
+}

@@ -28,3 +28,11 @@
 @import url(../blocks/service/__image/service__image.css);
 @import url(../blocks/service/__paragraph/service__paragraph.css);
 
+@import url(../blocks/news/new.css);
+@import url(../blocks/news/__picture/news__picture.css);
+@import url(../blocks/news/__line/news__line.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__date/news__date.css);
+
+

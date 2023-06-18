@@ -1,0 +1,9 @@
+.news__title{
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 3;
+}

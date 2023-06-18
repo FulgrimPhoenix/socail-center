@@ -1,6 +1,10 @@
 //ПЕРЕМЕННЫЕ
+const newsLine = document.querySelector('.news__line');
 const serviceCard = document.querySelector('#service').content;
 const spaceForService = document.querySelector('.service__space');
+let offset = 0;
+let x1 = null;
+let y1 = null;
 
 const serviceList = [
   {
@@ -74,5 +78,31 @@ function addServiceCard (item) {
   serviceCardDiscription.textContent = item.discription;
   return serviceCardElements
 }
+
+function handleTouchStart(event) {
+  const touch = event.touches[0];
+  console.log(touch);
+  let x1 = touch.clientX;
+}
+
+function handleTouchMove (event) {
+  
+  let x2 = event.touches[0].clientX;
+  let xDiff = x1 - x2;
+
+  if (xDiff > 0){
+    offset = offset - 256;
+    newsLine.style.left = offset + 'px';
+    console.log('right');
+  }else if (xDiff < 0){
+    offset = offset + 256;
+    newsLine.style.left = offset + 'px';
+    console.log('left');
+  }
+   x1 = null;
+   xDiff = null;
+}
 //ФУНКЦИОНАЛ
-serviceList.forEach(item => spaceForService.append(addServiceCard(item)))
+serviceList.forEach(item => spaceForService.append(addServiceCard(item)));
+newsLine.addEventListener('touchstart', handleTouchStart, false);
+newsLine.addEventListener('touchmove', handleTouchMove, false);
